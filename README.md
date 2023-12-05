@@ -8,8 +8,7 @@ I found: https://stackoverflow.com/questions/2213607/how-to-get-english-language
 
 No idea why infochimps put the word list inside an excel (.xls) file.
 
-I pulled out the words into a simple new-line-delimited text file.
-Which is more useful when building apps or importing into databases etc.
+I pulled out the words into a simple new-line-delimited text file, which is more useful when building apps or importing into databases etc.
 
 Copyright still belongs to them.
 
