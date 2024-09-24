@@ -1,11 +1,15 @@
-List Of English Words
-=============
+## WordsList
 
-Files you may be interested in:
+This list of words contains almost all the English words that have been spoken, commonly or not. This list contains several types, with each one of them having a clean version of the word list.
 
--  [words.txt](words.txt) contains all words.
--  [words_alpha.txt](words_alpha.txt) contains only [[:alpha:]] words (words that only have letters, no numbers or symbols). If you want a quick solution choose this.
--  [words_dictionary.json](words_dictionary.json) contains all the words from words_alpha.txt as json format. 
-If you are using Python, you can easily load this file and use it as a dictionary for faster performance. All the words are assigned with 1 in the dictionary.
+For an exact representation of how many words we have (according to `wc -l <FILE>`), refer to the table below:
 
-See [read_english_dictionary.py](read_english_dictionary.py) for example usage.
+| Type                       | File name                                           | Count
+|:---------------------------|:----------------------------------------------------|:-------
+| Bad words                  | [`bad-words.txt`](bad-words.txt)                    | 3423
+| All words                  | [`words.txt`](words.txt)                            | 466550
+| Alphabetical words         | [`words_alpha.txt`](words_alpha.txt)                | 370105
+| Common words               | [`words-common.txt`](words-common.txt)              | 10000
+| All words (clean)          | [`words-clean.txt`](words-clean.txt)                | 465497
+| Alphabetical words (clean) | [`words-clean-alpha.txt`](words-clean-alpha.txt)    | 369028
+| Common words (clean)       | [`words-common-clean.txt`](words-common-clean.txt)  | 9894
